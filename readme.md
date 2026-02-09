@@ -12,7 +12,7 @@ Create an issue in the repo with your question or concern. As a back up, you can
 
 # [MVP Summit 2026](https://mvp.microsoft.com)
 
-## 🔥BRKXXX: SESSIONNAME
+## 🔥BRKXXX: Build a Supply Chain Ontology with Microsoft Fabric IQ
 
 ### Session Description
 
