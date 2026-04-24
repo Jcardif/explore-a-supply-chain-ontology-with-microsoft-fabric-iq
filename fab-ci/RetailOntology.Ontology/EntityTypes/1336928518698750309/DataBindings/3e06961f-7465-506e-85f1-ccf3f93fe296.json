@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "3e06961f-7465-506e-85f1-ccf3f93fe296",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "ord_id",
+        "targetPropertyId": "7077549924453008204"
+      },
+      {
+        "sourceColumnName": "cust_id",
+        "targetPropertyId": "1618311967890740950"
+      },
+      {
+        "sourceColumnName": "reg_id",
+        "targetPropertyId": "317723350158841807"
+      },
+      {
+        "sourceColumnName": "ord_dt",
+        "targetPropertyId": "365364776453029139"
+      },
+      {
+        "sourceColumnName": "ord_status",
+        "targetPropertyId": "2285330293838891783"
+      },
+      {
+        "sourceColumnName": "is_expe",
+        "targetPropertyId": "2411581214384713788"
+      },
+      {
+        "sourceColumnName": "ord_total_amt",
+        "targetPropertyId": "2931748068857605269"
+      },
+      {
+        "sourceColumnName": "paym_method_type",
+        "targetPropertyId": "5533496907983232714"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+      "sourceTableName": "orders",
+      "sourceSchema": "dbo"
+    }
+  }
+}

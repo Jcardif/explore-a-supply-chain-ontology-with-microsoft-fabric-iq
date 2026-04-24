@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "8a29d172-eff2-5304-9d06-28a0a9253d6e",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "cust_id",
+        "targetPropertyId": "7073198799240369298"
+      },
+      {
+        "sourceColumnName": "reg_id",
+        "targetPropertyId": "8850924337378818821"
+      },
+      {
+        "sourceColumnName": "cust_email",
+        "targetPropertyId": "7804688458504346825"
+      },
+      {
+        "sourceColumnName": "loya_tier",
+        "targetPropertyId": "3173493079849569597"
+      },
+      {
+        "sourceColumnName": "is_active_cust",
+        "targetPropertyId": "6862372249930820296"
+      },
+      {
+        "sourceColumnName": "sign_up_dt",
+        "targetPropertyId": "4189111360147999219"
+      },
+      {
+        "sourceColumnName": "life_val_amt",
+        "targetPropertyId": "7145369288337405385"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+      "sourceTableName": "customers",
+      "sourceSchema": "dbo"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "205239088477996313",
+  "name": "OrderLineReferencesProduct",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "7351377513835261563"
+  },
+  "target": {
+    "entityTypeId": "2261593822612860932"
+  }
+}

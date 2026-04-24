@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "0d8b8612-9e68-50e0-afcd-12f9e38a1fcb",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "dem_signal_id",
+        "targetPropertyId": "1575073227557499869"
+      },
+      {
+        "sourceColumnName": "prod_id",
+        "targetPropertyId": "8609283793334961982"
+      },
+      {
+        "sourceColumnName": "reg_id",
+        "targetPropertyId": "4883760436391973159"
+      },
+      {
+        "sourceColumnName": "dem_chn",
+        "targetPropertyId": "4960471708401605101"
+      },
+      {
+        "sourceColumnName": "signal_src_sys",
+        "targetPropertyId": "1196673479037196769"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+      "sourceTableName": "demand_signals",
+      "sourceSchema": "dbo"
+    }
+  }
+}

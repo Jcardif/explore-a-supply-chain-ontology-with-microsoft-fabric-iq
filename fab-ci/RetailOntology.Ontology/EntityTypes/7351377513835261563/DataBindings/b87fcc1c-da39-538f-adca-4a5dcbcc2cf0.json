@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "b87fcc1c-da39-538f-adca-4a5dcbcc2cf0",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "ord_ln_id",
+        "targetPropertyId": "4871760957207786869"
+      },
+      {
+        "sourceColumnName": "ord_id",
+        "targetPropertyId": "748866147187400079"
+      },
+      {
+        "sourceColumnName": "prod_id",
+        "targetPropertyId": "2579816400609362870"
+      },
+      {
+        "sourceColumnName": "qty",
+        "targetPropertyId": "2309236178203425647"
+      },
+      {
+        "sourceColumnName": "unit_price_amt",
+        "targetPropertyId": "7282444233458480344"
+      },
+      {
+        "sourceColumnName": "ln_total_amt",
+        "targetPropertyId": "5634415463666909621"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+      "sourceTableName": "order_lines",
+      "sourceSchema": "dbo"
+    }
+  }
+}

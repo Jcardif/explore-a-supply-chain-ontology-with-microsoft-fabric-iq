@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "dfe11c00-2980-5c3d-9eef-5c28f3803c56",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "fcst_id",
+        "targetPropertyId": "8067789318815475547"
+      },
+      {
+        "sourceColumnName": "prod_id",
+        "targetPropertyId": "1512061200795302159"
+      },
+      {
+        "sourceColumnName": "reg_id",
+        "targetPropertyId": "2234429614018152118"
+      },
+      {
+        "sourceColumnName": "dem_signal_id",
+        "targetPropertyId": "2106795784167499028"
+      },
+      {
+        "sourceColumnName": "fcst_hor_days",
+        "targetPropertyId": "3056197401624444971"
+      },
+      {
+        "sourceColumnName": "fcst_mdl_name",
+        "targetPropertyId": "5955597614050618943"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+      "sourceTableName": "forecasts",
+      "sourceSchema": "dbo"
+    }
+  }
+}

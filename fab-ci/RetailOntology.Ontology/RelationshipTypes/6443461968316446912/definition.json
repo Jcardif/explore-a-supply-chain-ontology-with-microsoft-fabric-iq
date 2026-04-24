@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "6443461968316446912",
+  "name": "ForecastInRegion",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "2388068599946659390"
+  },
+  "target": {
+    "entityTypeId": "1780734440968994459"
+  }
+}

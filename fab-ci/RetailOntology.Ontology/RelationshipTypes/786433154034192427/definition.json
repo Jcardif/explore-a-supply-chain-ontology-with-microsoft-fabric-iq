@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "786433154034192427",
+  "name": "CustomerLocatedInRegion",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "2950563291408698332"
+  },
+  "target": {
+    "entityTypeId": "1780734440968994459"
+  }
+}

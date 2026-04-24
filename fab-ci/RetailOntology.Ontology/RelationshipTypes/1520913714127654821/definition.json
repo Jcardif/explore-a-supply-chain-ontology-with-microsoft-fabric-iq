@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "1520913714127654821",
+  "name": "ForecastForProduct",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "2388068599946659390"
+  },
+  "target": {
+    "entityTypeId": "2261593822612860932"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "8891353042538008073",
+  "name": "ReturnForOrder",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "3121634619128998827"
+  },
+  "target": {
+    "entityTypeId": "1336928518698750309"
+  }
+}

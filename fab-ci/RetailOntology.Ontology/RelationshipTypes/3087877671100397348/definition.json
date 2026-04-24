@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "3087877671100397348",
+  "name": "PromotionInRegion",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "8734325683183036412"
+  },
+  "target": {
+    "entityTypeId": "1780734440968994459"
+  }
+}

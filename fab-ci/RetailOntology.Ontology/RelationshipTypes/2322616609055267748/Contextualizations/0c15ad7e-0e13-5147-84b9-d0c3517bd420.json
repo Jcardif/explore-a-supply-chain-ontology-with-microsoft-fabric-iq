@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/contextualization/1.0.0/schema.json",
+  "id": "0c15ad7e-0e13-5147-84b9-d0c3517bd420",
+  "dataBindingTable": {
+    "workspaceId": "00000000-0000-0000-0000-000000000000",
+    "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+    "sourceTableName": "inventories",
+    "sourceSchema": "dbo",
+    "sourceType": "LakehouseTable"
+  },
+  "sourceKeyRefBindings": [
+    {
+      "sourceColumnName": "inv_id",
+      "targetPropertyId": "2140472521817763423"
+    }
+  ],
+  "targetKeyRefBindings": [
+    {
+      "sourceColumnName": "prod_id",
+      "targetPropertyId": "3947905459504499425"
+    }
+  ]
+}

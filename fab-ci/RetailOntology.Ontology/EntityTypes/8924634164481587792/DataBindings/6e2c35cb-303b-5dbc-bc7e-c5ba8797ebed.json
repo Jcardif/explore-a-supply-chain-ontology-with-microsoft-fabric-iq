@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "6e2c35cb-303b-5dbc-bc7e-c5ba8797ebed",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "inv_id",
+        "targetPropertyId": "2140472521817763423"
+      },
+      {
+        "sourceColumnName": "prod_id",
+        "targetPropertyId": "3286219014917795079"
+      },
+      {
+        "sourceColumnName": "wh_id",
+        "targetPropertyId": "4589852035577328921"
+      },
+      {
+        "sourceColumnName": "reg_id",
+        "targetPropertyId": "5107118923067397790"
+      },
+      {
+        "sourceColumnName": "sfty_stock_qty",
+        "targetPropertyId": "7681792002132699908"
+      },
+      {
+        "sourceColumnName": "reord_pt_qty",
+        "targetPropertyId": "2795748904961330898"
+      },
+      {
+        "sourceColumnName": "lead_t_days",
+        "targetPropertyId": "5361833650049080490"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+      "sourceTableName": "inventories",
+      "sourceSchema": "dbo"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "f2924ab1-691b-525d-844f-861f2f57b76d",
+  "dataBindingConfiguration": {
+    "dataBindingType": "TimeSeries",
+    "timestampColumnName": "ts",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "fcst_units",
+        "targetPropertyId": "2453009080893929266"
+      },
+      {
+        "sourceColumnName": "fcst_amt",
+        "targetPropertyId": "7862184119059500478"
+      },
+      {
+        "sourceColumnName": "fcst_conf_pct",
+        "targetPropertyId": "7472391329480735948"
+      },
+      {
+        "sourceColumnName": "ts",
+        "targetPropertyId": "4401474727616277745"
+      },
+      {
+        "sourceColumnName": "fcst_id",
+        "targetPropertyId": "8067789318815475547"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "KustoTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "0471e928-117b-96a1-41aa-4ca65134a8b4",
+      "clusterUri": "https://trd-3946gv0qtyb4c2gxtf.z4.kusto.fabric.microsoft.com",
+      "databaseName": "RetailEH",
+      "sourceTableName": "forecasts"
+    }
+  }
+}

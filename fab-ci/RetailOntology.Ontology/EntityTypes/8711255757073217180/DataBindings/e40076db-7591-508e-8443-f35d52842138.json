@@ -1,0 +1,56 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "e40076db-7591-508e-8443-f35d52842138",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "shp_id",
+        "targetPropertyId": "6148768780093470309"
+      },
+      {
+        "sourceColumnName": "ord_id",
+        "targetPropertyId": "6122526560340087370"
+      },
+      {
+        "sourceColumnName": "car_id",
+        "targetPropertyId": "4169199459376868110"
+      },
+      {
+        "sourceColumnName": "wh_id",
+        "targetPropertyId": "4420398332161703330"
+      },
+      {
+        "sourceColumnName": "reg_id",
+        "targetPropertyId": "8787908926072700581"
+      },
+      {
+        "sourceColumnName": "trac_num",
+        "targetPropertyId": "6741030062043898167"
+      },
+      {
+        "sourceColumnName": "shp_status",
+        "targetPropertyId": "6643609556012526293"
+      },
+      {
+        "sourceColumnName": "ship_dt",
+        "targetPropertyId": "7383045270984253909"
+      },
+      {
+        "sourceColumnName": "est_deli_dt",
+        "targetPropertyId": "1365984124218564327"
+      },
+      {
+        "sourceColumnName": "act_deli_dt",
+        "targetPropertyId": "4505740106441883228"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+      "sourceTableName": "shipments",
+      "sourceSchema": "dbo"
+    }
+  }
+}

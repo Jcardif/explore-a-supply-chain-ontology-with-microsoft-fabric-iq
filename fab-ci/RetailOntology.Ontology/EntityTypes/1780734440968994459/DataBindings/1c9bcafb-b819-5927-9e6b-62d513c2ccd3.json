@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "1c9bcafb-b819-5927-9e6b-62d513c2ccd3",
+  "dataBindingConfiguration": {
+    "dataBindingType": "TimeSeries",
+    "timestampColumnName": "ts",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "weat_disr_index",
+        "targetPropertyId": "1862679756034115545"
+      },
+      {
+        "sourceColumnName": "ts",
+        "targetPropertyId": "4685560676407796007"
+      },
+      {
+        "sourceColumnName": "reg_id",
+        "targetPropertyId": "6320393367239333108"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "KustoTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "0471e928-117b-96a1-41aa-4ca65134a8b4",
+      "clusterUri": "https://trd-3946gv0qtyb4c2gxtf.z4.kusto.fabric.microsoft.com",
+      "databaseName": "RetailEH",
+      "sourceTableName": "regions"
+    }
+  }
+}

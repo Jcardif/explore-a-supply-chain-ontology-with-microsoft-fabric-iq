@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "a090bb8d-e202-5a02-aa2f-0bf63569b0bb",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "car_id",
+        "targetPropertyId": "2754066534711390192"
+      },
+      {
+        "sourceColumnName": "car_name",
+        "targetPropertyId": "6045792489002536929"
+      },
+      {
+        "sourceColumnName": "serv_level",
+        "targetPropertyId": "5997914338392137321"
+      },
+      {
+        "sourceColumnName": "has_cold_chain_capa",
+        "targetPropertyId": "8288747975195845644"
+      },
+      {
+        "sourceColumnName": "supp_ph",
+        "targetPropertyId": "2121290185661027154"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+      "sourceTableName": "carriers",
+      "sourceSchema": "dbo"
+    }
+  }
+}

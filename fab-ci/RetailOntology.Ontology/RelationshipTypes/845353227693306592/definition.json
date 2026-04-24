@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "845353227693306592",
+  "name": "InventoryInRegion",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "8924634164481587792"
+  },
+  "target": {
+    "entityTypeId": "1780734440968994459"
+  }
+}

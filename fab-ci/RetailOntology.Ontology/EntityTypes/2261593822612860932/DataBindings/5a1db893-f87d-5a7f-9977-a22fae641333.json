@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "5a1db893-f87d-5a7f-9977-a22fae641333",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "prod_id",
+        "targetPropertyId": "3947905459504499425"
+      },
+      {
+        "sourceColumnName": "prod_cat_id",
+        "targetPropertyId": "3939622633749851787"
+      },
+      {
+        "sourceColumnName": "sku",
+        "targetPropertyId": "6196773972161667010"
+      },
+      {
+        "sourceColumnName": "prod_name",
+        "targetPropertyId": "6807581359088202947"
+      },
+      {
+        "sourceColumnName": "brand_name",
+        "targetPropertyId": "6072404424894903556"
+      },
+      {
+        "sourceColumnName": "is_disc",
+        "targetPropertyId": "74835752355847242"
+      },
+      {
+        "sourceColumnName": "launch_dt",
+        "targetPropertyId": "8684546764230476815"
+      },
+      {
+        "sourceColumnName": "unit_cost_amt",
+        "targetPropertyId": "4772982080700299299"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+      "sourceTableName": "products",
+      "sourceSchema": "dbo"
+    }
+  }
+}

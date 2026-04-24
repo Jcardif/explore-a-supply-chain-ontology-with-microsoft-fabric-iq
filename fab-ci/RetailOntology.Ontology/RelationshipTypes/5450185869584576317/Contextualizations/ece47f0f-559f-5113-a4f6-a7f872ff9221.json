@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/contextualization/1.0.0/schema.json",
+  "id": "ece47f0f-559f-5113-a4f6-a7f872ff9221",
+  "dataBindingTable": {
+    "workspaceId": "00000000-0000-0000-0000-000000000000",
+    "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+    "sourceTableName": "shipments",
+    "sourceSchema": "dbo",
+    "sourceType": "LakehouseTable"
+  },
+  "sourceKeyRefBindings": [
+    {
+      "sourceColumnName": "shp_id",
+      "targetPropertyId": "6148768780093470309"
+    }
+  ],
+  "targetKeyRefBindings": [
+    {
+      "sourceColumnName": "car_id",
+      "targetPropertyId": "2754066534711390192"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "7951042049155944583",
+  "name": "ShipmentDepartedFromWarehouse",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "8711255757073217180"
+  },
+  "target": {
+    "entityTypeId": "4112634904934564765"
+  }
+}

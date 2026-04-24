@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "e0236efc-ca3c-57c0-ae76-787f038fdf9b",
+  "dataBindingConfiguration": {
+    "dataBindingType": "TimeSeries",
+    "timestampColumnName": "ts",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "on_t_deli_rate",
+        "targetPropertyId": "2446462168188334252"
+      },
+      {
+        "sourceColumnName": "fuel_surc_pct",
+        "targetPropertyId": "6882075752359514972"
+      },
+      {
+        "sourceColumnName": "ts",
+        "targetPropertyId": "8821339486574479627"
+      },
+      {
+        "sourceColumnName": "car_id",
+        "targetPropertyId": "2754066534711390192"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "KustoTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "0471e928-117b-96a1-41aa-4ca65134a8b4",
+      "clusterUri": "https://trd-3946gv0qtyb4c2gxtf.z4.kusto.fabric.microsoft.com",
+      "databaseName": "RetailEH",
+      "sourceTableName": "carriers"
+    }
+  }
+}

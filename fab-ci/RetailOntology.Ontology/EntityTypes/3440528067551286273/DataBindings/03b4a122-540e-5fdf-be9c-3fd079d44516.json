@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "03b4a122-540e-5fdf-be9c-3fd079d44516",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "str_id",
+        "targetPropertyId": "8269699212909587775"
+      },
+      {
+        "sourceColumnName": "reg_id",
+        "targetPropertyId": "4243024132884077482"
+      },
+      {
+        "sourceColumnName": "str_name",
+        "targetPropertyId": "9002189513612965164"
+      },
+      {
+        "sourceColumnName": "str_type",
+        "targetPropertyId": "3373014925163645219"
+      },
+      {
+        "sourceColumnName": "open_dt",
+        "targetPropertyId": "7556792149492491179"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+      "sourceTableName": "stores",
+      "sourceSchema": "dbo"
+    }
+  }
+}

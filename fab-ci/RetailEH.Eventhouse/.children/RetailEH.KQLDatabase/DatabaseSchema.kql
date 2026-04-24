@@ -2,3 +2,12 @@
 // Use management commands in this script to configure your database items, such as tables, functions, materialized views, and more.
 
 
+.create-merge table carriers (car_id:string, on_t_deli_rate:real, fuel_surc_pct:real, ts:datetime) 
+.create-merge table customers (cust_id:string, cust_enga_score:real, ts:datetime) 
+.create-merge table demand_signals (dem_signal_id:string, dem_units:long, dem_amt:real, ts:datetime) 
+.create-merge table forecasts (fcst_id:string, fcst_units:long, fcst_amt:real, fcst_conf_pct:real, ts:datetime) 
+.create-merge table inventories (inv_id:string, on_hand_qty:long, avail_qty:long, bo_qty:long, inv_val_amt:real, ts:datetime) 
+.create-merge table products (prod_id:string, sell_price_amt:real, disc_pct:real, ts:datetime) 
+.create-merge table regions (reg_id:string, weat_disr_index:real, ts:datetime) 
+.create-merge table shipments (shp_id:string, in_tran_temp_c:real, in_tran_hum_pct:real, cur_lat:real, cur_lon:real, delay_min:long, ts:datetime) 
+.create-merge table stores (str_id:string, str_foot_traf:long, str_sales_amt:real, ts:datetime) 

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "3798000343678184165",
+  "name": "ForecastBasedOnDemandSignal",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "2388068599946659390"
+  },
+  "target": {
+    "entityTypeId": "6865617926665503416"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "3321435934176340056",
+  "name": "DemandForProduct",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "6865617926665503416"
+  },
+  "target": {
+    "entityTypeId": "2261593822612860932"
+  }
+}

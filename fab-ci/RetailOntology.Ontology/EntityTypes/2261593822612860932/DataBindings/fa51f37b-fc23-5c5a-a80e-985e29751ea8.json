@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "fa51f37b-fc23-5c5a-a80e-985e29751ea8",
+  "dataBindingConfiguration": {
+    "dataBindingType": "TimeSeries",
+    "timestampColumnName": "ts",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "sell_price_amt",
+        "targetPropertyId": "8652227643842412855"
+      },
+      {
+        "sourceColumnName": "disc_pct",
+        "targetPropertyId": "4404727869447797175"
+      },
+      {
+        "sourceColumnName": "ts",
+        "targetPropertyId": "3459873854624494289"
+      },
+      {
+        "sourceColumnName": "prod_id",
+        "targetPropertyId": "3947905459504499425"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "KustoTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "0471e928-117b-96a1-41aa-4ca65134a8b4",
+      "clusterUri": "https://trd-3946gv0qtyb4c2gxtf.z4.kusto.fabric.microsoft.com",
+      "databaseName": "RetailEH",
+      "sourceTableName": "products"
+    }
+  }
+}

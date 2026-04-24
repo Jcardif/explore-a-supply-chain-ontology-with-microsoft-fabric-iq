@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "5450185869584576317",
+  "name": "ShipmentHandledByCarrier",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "8711255757073217180"
+  },
+  "target": {
+    "entityTypeId": "4813431323066677475"
+  }
+}

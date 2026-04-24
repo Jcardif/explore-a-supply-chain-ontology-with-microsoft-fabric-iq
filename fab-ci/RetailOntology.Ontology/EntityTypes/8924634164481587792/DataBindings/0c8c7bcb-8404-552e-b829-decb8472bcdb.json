@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "0c8c7bcb-8404-552e-b829-decb8472bcdb",
+  "dataBindingConfiguration": {
+    "dataBindingType": "TimeSeries",
+    "timestampColumnName": "ts",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "on_hand_qty",
+        "targetPropertyId": "205115613324517333"
+      },
+      {
+        "sourceColumnName": "avail_qty",
+        "targetPropertyId": "2593773485742064275"
+      },
+      {
+        "sourceColumnName": "bo_qty",
+        "targetPropertyId": "8608460914851605129"
+      },
+      {
+        "sourceColumnName": "inv_val_amt",
+        "targetPropertyId": "220092044931887871"
+      },
+      {
+        "sourceColumnName": "ts",
+        "targetPropertyId": "4505917658059579306"
+      },
+      {
+        "sourceColumnName": "inv_id",
+        "targetPropertyId": "2140472521817763423"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "KustoTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "0471e928-117b-96a1-41aa-4ca65134a8b4",
+      "clusterUri": "https://trd-3946gv0qtyb4c2gxtf.z4.kusto.fabric.microsoft.com",
+      "databaseName": "RetailEH",
+      "sourceTableName": "inventories"
+    }
+  }
+}

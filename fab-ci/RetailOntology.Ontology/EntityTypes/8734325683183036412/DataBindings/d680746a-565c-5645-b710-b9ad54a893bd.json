@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "d680746a-565c-5645-b710-b9ad54a893bd",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "promo_id",
+        "targetPropertyId": "7831299258017616235"
+      },
+      {
+        "sourceColumnName": "prod_id",
+        "targetPropertyId": "4442181083268602178"
+      },
+      {
+        "sourceColumnName": "reg_id",
+        "targetPropertyId": "7647429687391429486"
+      },
+      {
+        "sourceColumnName": "promo_name",
+        "targetPropertyId": "6316995750585052643"
+      },
+      {
+        "sourceColumnName": "start_dt",
+        "targetPropertyId": "7611845761859416565"
+      },
+      {
+        "sourceColumnName": "end_dt",
+        "targetPropertyId": "2568909975002194800"
+      },
+      {
+        "sourceColumnName": "disc_pct",
+        "targetPropertyId": "244254989666466578"
+      },
+      {
+        "sourceColumnName": "is_active_promo",
+        "targetPropertyId": "4543055839278069414"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "5ad5d699-62ae-bb01-4f4f-debf383865c6",
+      "sourceTableName": "promotions",
+      "sourceSchema": "dbo"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "0b0c8e46-e944-5f7e-8cd0-6825869262c8",
+  "dataBindingConfiguration": {
+    "dataBindingType": "TimeSeries",
+    "timestampColumnName": "ts",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "dem_units",
+        "targetPropertyId": "8997843500181690691"
+      },
+      {
+        "sourceColumnName": "dem_amt",
+        "targetPropertyId": "2744097140425354868"
+      },
+      {
+        "sourceColumnName": "ts",
+        "targetPropertyId": "7864453917839445010"
+      },
+      {
+        "sourceColumnName": "dem_signal_id",
+        "targetPropertyId": "1575073227557499869"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "KustoTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "0471e928-117b-96a1-41aa-4ca65134a8b4",
+      "clusterUri": "https://trd-3946gv0qtyb4c2gxtf.z4.kusto.fabric.microsoft.com",
+      "databaseName": "RetailEH",
+      "sourceTableName": "demand_signals"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "889ce54c-763a-5b57-a9db-fb89e379a719",
+  "dataBindingConfiguration": {
+    "dataBindingType": "TimeSeries",
+    "timestampColumnName": "ts",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "in_tran_temp_c",
+        "targetPropertyId": "6347333176169942084"
+      },
+      {
+        "sourceColumnName": "in_tran_hum_pct",
+        "targetPropertyId": "1602806220131915969"
+      },
+      {
+        "sourceColumnName": "cur_lat",
+        "targetPropertyId": "7351760910723723301"
+      },
+      {
+        "sourceColumnName": "cur_lon",
+        "targetPropertyId": "4700613036035175375"
+      },
+      {
+        "sourceColumnName": "delay_min",
+        "targetPropertyId": "289509684160101429"
+      },
+      {
+        "sourceColumnName": "ts",
+        "targetPropertyId": "6050226620023662086"
+      },
+      {
+        "sourceColumnName": "shp_id",
+        "targetPropertyId": "6148768780093470309"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "KustoTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "0471e928-117b-96a1-41aa-4ca65134a8b4",
+      "clusterUri": "https://trd-3946gv0qtyb4c2gxtf.z4.kusto.fabric.microsoft.com",
+      "databaseName": "RetailEH",
+      "sourceTableName": "shipments"
+    }
+  }
+}

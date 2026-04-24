@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "cf8b371a-8801-55cf-a462-6dc627174dbe",
+  "dataBindingConfiguration": {
+    "dataBindingType": "TimeSeries",
+    "timestampColumnName": "ts",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "str_foot_traf",
+        "targetPropertyId": "2212032079990481917"
+      },
+      {
+        "sourceColumnName": "str_sales_amt",
+        "targetPropertyId": "8718182675087151229"
+      },
+      {
+        "sourceColumnName": "ts",
+        "targetPropertyId": "7996343677336181251"
+      },
+      {
+        "sourceColumnName": "str_id",
+        "targetPropertyId": "8269699212909587775"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "KustoTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "0471e928-117b-96a1-41aa-4ca65134a8b4",
+      "clusterUri": "https://trd-3946gv0qtyb4c2gxtf.z4.kusto.fabric.microsoft.com",
+      "databaseName": "RetailEH",
+      "sourceTableName": "stores"
+    }
+  }
+}
